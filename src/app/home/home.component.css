@@ -1,0 +1,16 @@
+.home {
+  min-height: 800px;
+}
+
+.title {
+  text-align: center;
+  vertical-align: middle;
+  color: #842bd7;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.cardsContent {
+  background-color: #eaeaea;
+  min-height: 600px;
+}
