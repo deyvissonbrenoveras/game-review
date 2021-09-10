@@ -1,5 +1,17 @@
 <div class="card">
-  <div>{{ game.name }}</div>
-  <div>Reviews: {{ game.reviews }}</div>
-  <div>Reviews: {{ game.rating }}</div>
+  <img class="card-image" src="../../../assets/img/GOW4.jpg" />
+  <div class="card-info">
+    <div>Reviews: {{ game.reviews }}</div>
+    <div class="card-rating">
+      <div>Rating:</div>
+      <div>
+        <mat-icon
+          *ngFor="let number of [1, 2, 3, 4, 5]"
+          class="card-rating-icon"
+          >star</mat-icon
+        >
+      </div>
+    </div>
+  </div>
+  <h3 class="card-title">{{ game.name }}</h3>
 </div>

@@ -1,9 +1,48 @@
 .card {
-  width: 350px;
+  width: 260px;
   height: 320px;
-  border: 1px solid red;
+  padding: 8px;
+  margin-bottom: 20px;
   background-color: #fff;
   border-radius: 5px;
   -webkit-box-shadow: 6px 9px 12px -8px #000000;
   box-shadow: 6px 9px 12px -8px #000000;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-image {
+  width: 140px;
+}
+
+.card-info {
+  width: 100%;
+  color: #842bd7;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-rating-icon {
+  color: #e5b819;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.card-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1b047c;
 }
