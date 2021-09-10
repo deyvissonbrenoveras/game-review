@@ -1,10 +1,31 @@
 .header {
   background-color: #945cb4;
   height: 300px;
-  border-radius: 0 0 10px 10px;
 }
 
 .logo {
   color: #fff;
   font-size: 48px;
+}
+.icon {
+  font-size: 48px;
+  color: #fff;
+  position: -webkit-sticky; /* Safari */
+  position: fixed;
+  top: 0;
+  right: calc(50% - 400px);
+  z-index: 100;
+}
+.sticky-toolbar {
+  height: 52px;
+  background-color: #945cb4;
+  border-radius: 0 0 4px 4px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+@media (max-width: 850px) {
+  .icon {
+    right: 40px;
+  }
 }
