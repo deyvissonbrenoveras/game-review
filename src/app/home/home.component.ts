@@ -22,6 +22,11 @@ export class HomeComponent implements OnInit {
       reviews: 12,
       rating: 4,
     },
+    {
+      name: 'Horizon Zero Dawn',
+      reviews: 12,
+      rating: 4,
+    },
   ];
   constructor() {}
 

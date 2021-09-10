@@ -13,4 +13,6 @@
 .cardsContent {
   background-color: #eaeaea;
   min-height: 600px;
+  padding: 20px;
+  flex-wrap: wrap;
 }
