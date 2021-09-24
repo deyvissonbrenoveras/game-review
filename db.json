@@ -1,0 +1,28 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "God of War",
+      "reviews": 10,
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "name": "The Last of Us",
+      "reviews": 4,
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "Horizon Zero Dawn",
+      "reviews": 12,
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "name": "Horizon Zero Dawn",
+      "reviews": 12,
+      "rating": 4
+    }
+  ]
+}
