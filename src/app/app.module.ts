@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatIconModule } from '@angular/material/icon';
 
@@ -16,6 +17,8 @@ import { HomeComponent } from './home/home.component';
 import { GameCardComponent } from './home/game-card/game-card.component';
 import { RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { GameComponent } from './game/game.component';
+import { GamesService } from './home/games.service';
 
 @NgModule({
   declarations: [
@@ -25,9 +28,11 @@ import { AboutComponent } from './about/about.component';
     HomeComponent,
     GameCardComponent,
     AboutComponent,
+    GameComponent,
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
@@ -35,7 +40,7 @@ import { AboutComponent } from './about/about.component';
     MatIconModule,
     RouterModule.forRoot(ROUTES),
   ],
-  providers: [],
+  providers: [GamesService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

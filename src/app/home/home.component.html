@@ -1,6 +1,10 @@
 <div class="home">
   <h1 class="title">Choose a game to review</h1>
   <div class="cardsContent" fxLayout="row" fxLayoutAlign="space-between">
-    <gr-game-card *ngFor="let game of games" [game]="game"></gr-game-card>
+    <gr-game-card
+      *ngFor="let game of games"
+      [game]="game"
+      [routerLink]="['game', game.id]"
+    ></gr-game-card>
   </div>
 </div>
