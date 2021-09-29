@@ -1,5 +1,5 @@
 <div class="home">
-  <h1 class="title">Choose a game to review</h1>
+  <gr-title [label]="'Choose a game to review'"></gr-title>
   <div class="cardsContent" fxLayout="row" fxLayoutAlign="space-between">
     <gr-game-card
       *ngFor="let game of games"
