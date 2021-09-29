@@ -14,4 +14,10 @@ export class GamesService {
       .get<Game[]>('http://localhost:3000/games')
       .pipe(map((games: Game[]) => games.map((game) => game)));
   }
+
+  gameById(id: string): Observable<Game> {
+    return this.http
+      .get<Game>(`http://localhost:3000/games/${id}`)
+      .pipe(map((game: Game) => game));
+  }
 }
