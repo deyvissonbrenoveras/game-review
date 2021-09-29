@@ -1,1 +1,12 @@
-<p>game works!</p>
+<gr-title [label]="'Make your review'"></gr-title>
+<div class="game-info">
+  <h3 class="name">{{ game.name }}</h3>
+  <div fxLayout="row" fxLayoutAlign="space-around">
+    <img class="game-image" src="../../../assets/img/GOW4.jpg" />
+    <div>
+      <div>Platform: {{ game.platform }}</div>
+      <div>Developer: {{ game.developer }}</div>
+      <div>Summary: {{ game.summary }}</div>
+    </div>
+  </div>
+</div>
