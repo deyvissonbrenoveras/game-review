@@ -19,6 +19,7 @@ import { RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { GameComponent } from './game/game.component';
 import { GamesService } from './home/games.service';
+import { TitleComponent } from './shared/title/title.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { GamesService } from './home/games.service';
     GameCardComponent,
     AboutComponent,
     GameComponent,
+    TitleComponent,
   ],
   imports: [
     BrowserModule,
