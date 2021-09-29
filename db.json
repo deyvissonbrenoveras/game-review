@@ -3,26 +3,38 @@
     {
       "id": 1,
       "name": "God of War",
+      "platform": "Playstation 4",
+      "developer": "Sony Entertainment",
       "reviews": 10,
-      "rating": 4
+      "rating": 4,
+      "summary": "Platform: Playstation 4 Developer: Naughty Dog Summary: Twenty years after a pandemic radically transformed known civilization, infected humans run amuck and survivors kill one another for sustenance and weapons - literally whatever they can get their hands on. Joel, a salty survivor, is hired to smuggle a fourteen-year-old girl, Ellie, out of a rough military quarantine, but what begins as a simple job quickly turns into a brutal journey across the country"
     },
     {
       "id": 2,
       "name": "The Last of Us",
+      "platform": "Playstation 4",
+      "developer": "Sony Entertainment",
       "reviews": 4,
-      "rating": 5
+      "rating": 5,
+      "summary": "Platform: Playstation 4 Developer: Naughty Dog Summary: Twenty years after a pandemic radically transformed known civilization, infected humans run amuck and survivors kill one another for sustenance and weapons - literally whatever they can get their hands on. Joel, a salty survivor, is hired to smuggle a fourteen-year-old girl, Ellie, out of a rough military quarantine, but what begins as a simple job quickly turns into a brutal journey across the country"
     },
     {
       "id": 3,
       "name": "Horizon Zero Dawn",
+      "platform": "Playstation 4",
+      "developer": "Sony Entertainment",
       "reviews": 12,
-      "rating": 4
+      "rating": 4,
+      "summary": "Platform: Playstation 4 Developer: Naughty Dog Summary: Twenty years after a pandemic radically transformed known civilization, infected humans run amuck and survivors kill one another for sustenance and weapons - literally whatever they can get their hands on. Joel, a salty survivor, is hired to smuggle a fourteen-year-old girl, Ellie, out of a rough military quarantine, but what begins as a simple job quickly turns into a brutal journey across the country"
     },
     {
       "id": 4,
       "name": "Horizon Zero Dawn",
+      "platform": "Playstation 4",
+      "developer": "Sony Entertainment",
       "reviews": 12,
-      "rating": 4
+      "rating": 4,
+      "summary": "Platform: Playstation 4 Developer: Naughty Dog Summary: Twenty years after a pandemic radically transformed known civilization, infected humans run amuck and survivors kill one another for sustenance and weapons - literally whatever they can get their hands on. Joel, a salty survivor, is hired to smuggle a fourteen-year-old girl, Ellie, out of a rough military quarantine, but what begins as a simple job quickly turns into a brutal journey across the country"
     }
   ]
 }
