@@ -1,12 +1,43 @@
 <gr-title [label]="'Make your review'"></gr-title>
 <div class="game-info">
   <h3 class="name">{{ game.name }}</h3>
-  <div fxLayout="row" fxLayoutAlign="space-around">
-    <img class="game-image" src="../../../assets/img/GOW4.jpg" />
-    <div>
-      <div>Platform: {{ game.platform }}</div>
-      <div>Developer: {{ game.developer }}</div>
-      <div>Summary: {{ game.summary }}</div>
+  <div class="content" fxLayout="row" fxLayoutAlign="space-around">
+    <img class="image" src="../../../assets/img/GOW4.jpg" />
+    <div class="info">
+      <div><b>Platform:</b> {{ game.platform }}</div>
+      <div><b>Developer:</b> {{ game.developer }}</div>
+      <div><b>Summary:</b> {{ game.summary }}</div>
+      <div class="card-rating">
+        <div>Rating:</div>
+        <div class="card-rating-icons">
+          <mat-icon
+            *ngFor="let number of [1, 2, 3, 4, 5]"
+            class="card-rating-icon"
+            >star</mat-icon
+          >
+        </div>
+      </div>
     </div>
+  </div>
+</div>
+<div class="write-review-container">
+  <h3 class="write-review-title">Write a review</h3>
+  <div class="inputs-container">
+    <label>
+      Review title
+      <input
+        type="text"
+        name="reviewTitle"
+        placeholder="Write a review title"
+      />
+    </label>
+    <label>
+      Write your critic to this game
+      <textarea
+        rows="10"
+        name="reviewCritic"
+        placeholder="Critic the game"
+      ></textarea>
+    </label>
   </div>
 </div>

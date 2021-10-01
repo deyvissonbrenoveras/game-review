@@ -1,12 +1,95 @@
 .game-info {
   background-color: #fff;
   height: 600px;
-  margin: 20px;
+  margin: 40px 20px;
   border-radius: 5px;
 }
 .name {
   text-align: center;
   text-transform: uppercase;
-  font-size: 46px;
+  font-size: 42px;
   padding: 20px;
+}
+.content {
+  padding: 0px 30px;
+}
+
+.image {
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.info {
+  margin-left: 20px;
+  padding: 0 20px 0 20px;
+  font-weight: 500;
+
+  display: flex;
+  flex-direction: column;
+}
+.info div {
+  margin-bottom: 4px;
+}
+
+.card-rating {
+  font-size: 22px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  /* margin-top: 100px; */
+
+  margin-top: auto;
+}
+.card-rating-icons {
+  margin-left: 10px;
+}
+.card-rating-icon {
+  color: #e5b819;
+  font-size: 32px;
+  width: 32px;
+  height: 32px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.write-review-container {
+  background-color: #fff;
+  min-height: 600px;
+  padding-top: 20px;
+}
+.write-review-title {
+  color: #842bd7;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.inputs-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px 30px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+input,
+textarea {
+  width: 80%;
+  border-radius: 5px;
+  background-color: #ebebeb;
+  padding: 6px 15px;
+  outline: none;
+  border: 1px solid black;
+  display: block;
+  margin-top: 5px;
+  margin-left: -6px;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: #b8b8b8;
 }
