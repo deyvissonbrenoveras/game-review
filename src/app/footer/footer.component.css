@@ -1,12 +1,45 @@
 .footer {
   height: 300px;
+  color: #fff;
   background-color: #3d3d3d;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .rights {
   background-color: #000;
   text-align: center;
   height: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: transparent;
+  color: none;
+  border: none;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button mat-icon {
+  color: #fff;
+  font-size: 42px;
+  width: 42px;
+  height: 42px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
 }
 .rights span {
   color: #fff;
+}
+.footer-text {
+  margin-left: 10px;
+  margin-bottom: 4px;
+}
+h5 {
+  font-size: 48px;
 }

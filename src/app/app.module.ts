@@ -20,6 +20,7 @@ import { AboutComponent } from './about/about.component';
 import { GameComponent } from './game/game.component';
 import { GamesService } from './home/games.service';
 import { TitleComponent } from './shared/title/title.component';
+import { ReviewCardComponent } from './home/review-card/review-card.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { TitleComponent } from './shared/title/title.component';
     AboutComponent,
     GameComponent,
     TitleComponent,
+    ReviewCardComponent,
   ],
   imports: [
     BrowserModule,

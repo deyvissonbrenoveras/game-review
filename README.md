@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Backend Server
 
-Run `npm run start-server` to start json-server
+Run `npm run start-server` to start json-server.
 
 ## Development server
 
