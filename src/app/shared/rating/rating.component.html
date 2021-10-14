@@ -1,0 +1,9 @@
+<div class="card-rating">
+  <div class="card-info">Rating:</div>
+  <mat-icon
+    *ngFor="let number of [1, 2, 3, 4, 5]"
+    class="card-rating-icon"
+    [ngClass]="{ 'card-rating-icon-active': number <= rating }"
+    >star</mat-icon
+  >
+</div>

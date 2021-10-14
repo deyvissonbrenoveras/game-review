@@ -1,11 +1,24 @@
 <div class="home">
   <gr-title [label]="'Choose a game to review'"></gr-title>
-  <div class="cardsContent" fxLayout="row" fxLayoutAlign="space-between">
+  <div class="cardsContent" fxLayout="row" fxLayoutAlign="flex-start">
     <gr-game-card
       *ngFor="let game of games"
       [game]="game"
       [routerLink]="['game', game.id]"
     ></gr-game-card>
   </div>
-  <div class="reviewsContainer">reviews</div>
+  <div class="reviewsContainer">
+    <div class="reviewsBlock">
+      <gr-review-card *ngFor="let review of reviewBlock1" [review]="review">
+      </gr-review-card>
+    </div>
+    <div class="reviewsBlock invertedReviewsBlock">
+      <gr-review-card *ngFor="let review of reviewBlock2" [review]="review">
+      </gr-review-card>
+    </div>
+    <div class="reviewsBlock">
+      <gr-review-card *ngFor="let review of reviewBlock3" [review]="review">
+      </gr-review-card>
+    </div>
+  </div>
 </div>

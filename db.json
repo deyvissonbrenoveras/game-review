@@ -6,7 +6,7 @@
       "platform": "Playstation 4",
       "developer": "Sony Entertainment",
       "reviews": 10,
-      "rating": 4,
+      "rating": 1,
       "summary": "Platform: Playstation 4 Developer: Naughty Dog Summary: Twenty years after a pandemic radically transformed known civilization, infected humans run amuck and survivors kill one another for sustenance and weapons - literally whatever they can get their hands on. Joel, a salty survivor, is hired to smuggle a fourteen-year-old girl, Ellie, out of a rough military quarantine, but what begins as a simple job quickly turns into a brutal journey across the country"
     },
     {
@@ -15,11 +15,20 @@
       "platform": "Playstation 4",
       "developer": "Sony Entertainment",
       "reviews": 4,
-      "rating": 5,
+      "rating": 2,
       "summary": "Platform: Playstation 4 Developer: Naughty Dog Summary: Twenty years after a pandemic radically transformed known civilization, infected humans run amuck and survivors kill one another for sustenance and weapons - literally whatever they can get their hands on. Joel, a salty survivor, is hired to smuggle a fourteen-year-old girl, Ellie, out of a rough military quarantine, but what begins as a simple job quickly turns into a brutal journey across the country"
     },
     {
       "id": 3,
+      "name": "Horizon Zero Dawn",
+      "platform": "Playstation 4",
+      "developer": "Sony Entertainment",
+      "reviews": 12,
+      "rating": 3,
+      "summary": "Platform: Playstation 4 Developer: Naughty Dog Summary: Twenty years after a pandemic radically transformed known civilization, infected humans run amuck and survivors kill one another for sustenance and weapons - literally whatever they can get their hands on. Joel, a salty survivor, is hired to smuggle a fourteen-year-old girl, Ellie, out of a rough military quarantine, but what begins as a simple job quickly turns into a brutal journey across the country"
+    },
+    {
+      "id": 4,
       "name": "Horizon Zero Dawn",
       "platform": "Playstation 4",
       "developer": "Sony Entertainment",
@@ -33,16 +42,213 @@
       "platform": "Playstation 4",
       "developer": "Sony Entertainment",
       "reviews": 12,
-      "rating": 4,
+      "rating": 5,
       "summary": "Platform: Playstation 4 Developer: Naughty Dog Summary: Twenty years after a pandemic radically transformed known civilization, infected humans run amuck and survivors kill one another for sustenance and weapons - literally whatever they can get their hands on. Joel, a salty survivor, is hired to smuggle a fourteen-year-old girl, Ellie, out of a rough military quarantine, but what begins as a simple job quickly turns into a brutal journey across the country"
     }
   ],
   "reviews": [
     {
-      "reviewTitle": "Best Game",
-      "reviewDescription": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "gameId": 1,
+      "title": "primeiro",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "primeiro",
+      "rating": 3
+    },
+    {
+      "gameId": 2,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
       "reviewerName": "John Den",
-      "rating": 5
+      "rating": 4
+    },
+    {
+      "gameId": 3,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 2
+    },
+    {
+      "gameId": 1,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 1
+    },
+    {
+      "gameId": 1,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 1
+    },
+    {
+      "gameId": 1,
+      "title": "primeiro",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "primeiro",
+      "rating": 3
+    },
+    {
+      "gameId": 2,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 4
+    },
+    {
+      "gameId": 3,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 2
+    },
+    {
+      "gameId": 1,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 1
+    },
+    {
+      "gameId": 1,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 1
+    },
+    {
+      "gameId": 1,
+      "title": "primeiro",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "primeiro",
+      "rating": 3
+    },
+    {
+      "gameId": 2,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 4
+    },
+    {
+      "gameId": 3,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 2
+    },
+    {
+      "gameId": 1,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 1
+    },
+    {
+      "gameId": 1,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 1
+    },
+    {
+      "gameId": 1,
+      "title": "primeiro",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "primeiro",
+      "rating": 3
+    },
+    {
+      "gameId": 2,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 4
+    },
+    {
+      "gameId": 3,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 2
+    },
+    {
+      "gameId": 1,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 1
+    },
+    {
+      "gameId": 1,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 1
+    },
+    {
+      "gameId": 1,
+      "title": "primeiro",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "primeiro",
+      "rating": 3
+    },
+    {
+      "gameId": 2,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 4
+    },
+    {
+      "gameId": 3,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 2
+    },
+    {
+      "gameId": 1,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 1
+    },
+    {
+      "gameId": 1,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 1
+    },
+    {
+      "gameId": 2,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 4
+    },
+    {
+      "gameId": 3,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 2
+    },
+    {
+      "gameId": 1,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 1
+    },
+    {
+      "gameId": 1,
+      "title": "Best Game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "John Den",
+      "rating": 1
     }
   ]
 }

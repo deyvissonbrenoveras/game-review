@@ -1,6 +1,7 @@
 export interface Review {
-  reviewTitle: String;
-  reviewDescription: String;
+  gameId: number;
+  title: String;
+  description: String;
   reviewerName: String;
   rating: number;
 }

@@ -3,14 +3,7 @@
   <div class="card-info">
     <div>Reviews: {{ game.reviews }}</div>
     <div class="card-rating">
-      <div>Rating:</div>
-      <div>
-        <mat-icon
-          *ngFor="let number of [1, 2, 3, 4, 5]"
-          class="card-rating-icon"
-          >star</mat-icon
-        >
-      </div>
+      <gr-rating [rating]="game.rating"></gr-rating>
     </div>
   </div>
   <h3 class="card-title">{{ game.name }}</h3>

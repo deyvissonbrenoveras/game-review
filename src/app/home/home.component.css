@@ -18,4 +18,37 @@
 .reviewsContainer {
   min-height: 600px;
   background-color: #fff;
+  overflow-x: hidden;
+}
+.reviewsBlock {
+  position: relative;
+  width: 1800px;
+  margin-top: 20px;
+  right: 100%;
+  display: flex;
+  justify-content: space-around;
+  animation-name: reviewAnimation;
+  animation-duration: 20s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.invertedReviewsBlock {
+  animation-name: invertedReviewAnimation;
+}
+@keyframes reviewAnimation {
+  from {
+    right: 950px;
+  }
+  to {
+    right: -50px;
+  }
+}
+@keyframes invertedReviewAnimation {
+  from {
+    right: -50px;
+  }
+  to {
+    right: 950px;
+  }
 }

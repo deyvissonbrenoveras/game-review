@@ -21,6 +21,8 @@ import { GameComponent } from './game/game.component';
 import { GamesService } from './home/games.service';
 import { TitleComponent } from './shared/title/title.component';
 import { ReviewCardComponent } from './home/review-card/review-card.component';
+import { ReviewsService } from './home/reviews.service';
+import { RatingComponent } from './shared/rating/rating.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,7 @@ import { ReviewCardComponent } from './home/review-card/review-card.component';
     GameComponent,
     TitleComponent,
     ReviewCardComponent,
+    RatingComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,7 +47,7 @@ import { ReviewCardComponent } from './home/review-card/review-card.component';
     MatIconModule,
     RouterModule.forRoot(ROUTES),
   ],
-  providers: [GamesService],
+  providers: [GamesService, ReviewsService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
