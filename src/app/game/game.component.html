@@ -22,12 +22,16 @@
 </div>
 <div class="write-review-container">
   <h3 class="write-review-title">Write a review</h3>
-  <div class="inputs-container">
+  <form
+    [formGroup]="reviewForm"
+    class="inputs-container"
+    (ngSubmit)="onSubmit()"
+  >
     <label>
       Review title
       <input
         type="text"
-        name="reviewTitle"
+        formControlName="title"
         placeholder="Write a review title"
       />
     </label>
@@ -35,9 +39,10 @@
       Write your review to this game
       <textarea
         rows="10"
-        name="reviewDescription"
-        placeholder="Rewview the game"
+        formControlName="description"
+        placeholder="Review the game"
       ></textarea>
     </label>
-  </div>
+    <button class="button" type="submit">Send</button>
+  </form>
 </div>

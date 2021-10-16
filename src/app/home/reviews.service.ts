@@ -1,5 +1,9 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import {
+  HttpClient,
+  HttpHeaders,
+  HttpParamsOptions,
+} from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Review } from '../shared/review.model';
 import { map } from 'rxjs/operators';
@@ -12,5 +16,19 @@ export class ReviewsService {
     return this.http
       .get<Review[]>('http://localhost:3000/reviews')
       .pipe(map((reviews: Review[]) => reviews.map((review) => review)));
+  }
+
+  addReview(review: Review): Observable<object> {
+    const httpOptions = {
+      headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
+    };
+    return this.http
+      .post(
+        'http://localhost:3000/reviews',
+        JSON.stringify(review),
+        httpOptions
+      )
+      .pipe(map((response) => response));
+    // .pipe(map((review) => review.id));
   }
 }

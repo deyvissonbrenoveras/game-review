@@ -93,3 +93,16 @@ textarea::placeholder,
 input::placeholder {
   color: #b8b8b8;
 }
+.button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 10px 105px 0 auto;
+  color: #fff;
+  background-color: #842bd7;
+  border-radius: 4px;
+}
+.button:hover {
+  background-color: #5c1e96;
+}

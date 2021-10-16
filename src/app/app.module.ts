@@ -23,6 +23,8 @@ import { TitleComponent } from './shared/title/title.component';
 import { ReviewCardComponent } from './home/review-card/review-card.component';
 import { ReviewsService } from './home/reviews.service';
 import { RatingComponent } from './shared/rating/rating.component';
+import { LogoComponent } from './shared/logo/logo.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,7 @@ import { RatingComponent } from './shared/rating/rating.component';
     TitleComponent,
     ReviewCardComponent,
     RatingComponent,
+    LogoComponent,
   ],
   imports: [
     BrowserModule,
@@ -46,6 +49,8 @@ import { RatingComponent } from './shared/rating/rating.component';
     MatToolbarModule,
     MatIconModule,
     RouterModule.forRoot(ROUTES),
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [GamesService, ReviewsService],
   bootstrap: [AppComponent],

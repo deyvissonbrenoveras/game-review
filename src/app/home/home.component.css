@@ -16,7 +16,7 @@
   flex-wrap: wrap;
 }
 .reviewsContainer {
-  min-height: 600px;
+  min-height: 500px;
   background-color: #fff;
   overflow-x: hidden;
 }
