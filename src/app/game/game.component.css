@@ -31,28 +31,6 @@
   margin-bottom: 4px;
 }
 
-.card-rating {
-  font-size: 22px;
-  font-weight: 400;
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  /* margin-top: 100px; */
-
-  margin-top: auto;
-}
-.card-rating-icons {
-  margin-left: 10px;
-}
-.card-rating-icon {
-  color: #e5b819;
-  font-size: 32px;
-  width: 32px;
-  height: 32px;
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
 .write-review-container {
   background-color: #fff;
   min-height: 600px;
@@ -92,6 +70,10 @@ textarea {
 textarea::placeholder,
 input::placeholder {
   color: #b8b8b8;
+}
+.validationError {
+  padding: 5px;
+  color: #ff0000;
 }
 .button {
   padding: 10px 20px;

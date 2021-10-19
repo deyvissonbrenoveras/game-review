@@ -7,16 +7,7 @@
       <div><b>Platform:</b> {{ game.platform }}</div>
       <div><b>Developer:</b> {{ game.developer }}</div>
       <div><b>Summary:</b> {{ game.summary }}</div>
-      <div class="card-rating">
-        <div>Rating:</div>
-        <div class="card-rating-icons">
-          <mat-icon
-            *ngFor="let number of [1, 2, 3, 4, 5]"
-            class="card-rating-icon"
-            >star</mat-icon
-          >
-        </div>
-      </div>
+      <gr-rating [rating]="game.rating"></gr-rating>
     </div>
   </div>
 </div>
@@ -34,6 +25,15 @@
         formControlName="title"
         placeholder="Write a review title"
       />
+      <div
+        *ngIf="
+          reviewForm.controls['title'].invalid &&
+          reviewForm.controls['title'].dirty
+        "
+        class="validationError"
+      >
+        The title must have between 5 and 100 characteres
+      </div>
     </label>
     <label>
       Write your review to this game
@@ -42,7 +42,29 @@
         formControlName="description"
         placeholder="Review the game"
       ></textarea>
+      <div
+        *ngIf="
+          reviewForm.controls['description'].invalid &&
+          reviewForm.controls['description'].dirty
+        "
+        class="validationError"
+      >
+        The description must have between 10 and 200 characteres
+      </div>
     </label>
+    <label>
+      <gr-rating-selector (rated)="rate($event)"></gr-rating-selector>
+      <div
+        *ngIf="
+          reviewForm.controls['rating'].invalid &&
+          reviewForm.controls['rating'].touched
+        "
+        class="validationError"
+      >
+        Rating is required
+      </div>
+    </label>
+
     <button class="button" type="submit">Send</button>
   </form>
 </div>

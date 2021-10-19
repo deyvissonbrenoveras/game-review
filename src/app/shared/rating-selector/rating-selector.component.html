@@ -1,0 +1,12 @@
+<div class="card-rating">
+  <div class="card-info">Rating:</div>
+  <mat-icon
+    *ngFor="let r of rates"
+    class="card-rating-icon"
+    [ngClass]="{ 'card-rating-icon-active': r <= rate }"
+    (click)="setRate(r)"
+    (mouseenter)="setTemporaryRate(r)"
+    (mouseleave)="clearTemporaryRate()"
+    >star</mat-icon
+  >
+</div>
