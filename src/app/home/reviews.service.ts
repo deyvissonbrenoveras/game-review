@@ -31,4 +31,9 @@ export class ReviewsService {
       .pipe(map((response) => response));
     // .pipe(map((review) => review.id));
   }
+  getReviewByGameId(id: number) {
+    return this.http
+      .get<Review[]>(`http://localhost:3000/reviews?gameId=${id}`)
+      .pipe(map((reviews: Review[]) => reviews.map((review) => review)));
+  }
 }

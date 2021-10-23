@@ -26,6 +26,7 @@ import { RatingComponent } from './shared/rating/rating.component';
 import { LogoComponent } from './shared/logo/logo.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RatingSelectorComponent } from './shared/rating-selector/rating-selector.component';
+import { ReviewComponent } from './game/review/review.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { RatingSelectorComponent } from './shared/rating-selector/rating-selecto
     RatingComponent,
     LogoComponent,
     RatingSelectorComponent,
+    ReviewComponent,
   ],
   imports: [
     BrowserModule,
