@@ -2,48 +2,63 @@
   "games": [
     {
       "id": 1,
+      "imageUrl": "/assets/img/GOW4.jpg",
       "name": "God of War",
       "platform": "Playstation 4",
-      "developer": "Sony Entertainment",
+      "developer": "SCE Santa Monica",
       "reviews": 10,
       "rating": 1,
-      "summary": "Platform: Playstation 4 Developer: Naughty Dog Summary: Twenty years after a pandemic radically transformed known civilization, infected humans run amuck and survivors kill one another for sustenance and weapons - literally whatever they can get their hands on. Joel, a salty survivor, is hired to smuggle a fourteen-year-old girl, Ellie, out of a rough military quarantine, but what begins as a simple job quickly turns into a brutal journey across the country"
+      "summary": "His vengeance against the gods of Olympus far behind him, Kratos now lives as a man in the lands of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… and teach his son to do the same. As mentor and protector to a son determined to earn his respect, Kratos is faced with an unexpected opportunity to master the rage that has long defined him. Questioning the dark lineage he’s passed on to his son, he hopes to make amends for the shortcomings of his past. Set within the untamed forests, mountains, and realms of Norse lore, God of War features a distinctly new setting with its own pantheon of creatures, monsters, and gods."
     },
     {
       "id": 2,
-      "name": "The Last of Us",
+      "name": "The Last of Us Remastered",
+      "imageUrl": "/assets/img/TLOU.jpg",
       "platform": "Playstation 4",
-      "developer": "Sony Entertainment",
+      "developer": "Naughty Dog",
       "reviews": 4,
       "rating": 2,
-      "summary": "Platform: Playstation 4 Developer: Naughty Dog Summary: Twenty years after a pandemic radically transformed known civilization, infected humans run amuck and survivors kill one another for sustenance and weapons - literally whatever they can get their hands on. Joel, a salty survivor, is hired to smuggle a fourteen-year-old girl, Ellie, out of a rough military quarantine, but what begins as a simple job quickly turns into a brutal journey across the country"
+      "summary": "The Last of Us has been rebuilt for the PlayStation4 system. Now featuring full 1080p, higher resolution character models, improved shadows and lighting, in addition to several other gameplay improvements. 20 years after a pandemic has radically changed known civilization, infected humans run wild and survivors are killing each other for food, weapons; whatever they can get their hands on. Joel, a violent survivor, is hired to smuggle a 14 year-old girl, Ellie, out of an oppressive military quarantine zone, but what starts as a small job soon transforms into a brutal journey across the U.S. The Last of Us Remastered includes the Abandoned Territories Map Pack, Reclaimed Territories Map Pack, and the critically acclaimed The Last of Us: Left Behind Single Player campaign that combines themes of survival, loyalty, and love with tense, survival-action gameplay."
     },
     {
       "id": 3,
-      "name": "Horizon Zero Dawn",
-      "platform": "Playstation 4",
-      "developer": "Sony Entertainment",
+      "name": "Gears of War 4",
+      "imageUrl": "/assets/img/GearsOW4.webp",
+      "platform": "XBOX ONE",
+      "developer": "The Coalition",
       "reviews": 12,
       "rating": 3,
-      "summary": "Platform: Playstation 4 Developer: Naughty Dog Summary: Twenty years after a pandemic radically transformed known civilization, infected humans run amuck and survivors kill one another for sustenance and weapons - literally whatever they can get their hands on. Joel, a salty survivor, is hired to smuggle a fourteen-year-old girl, Ellie, out of a rough military quarantine, but what begins as a simple job quickly turns into a brutal journey across the country"
+      "summary": "A new saga begins. After narrowly escaping an attack on their village, JD Fenix and his friends, Kait and Del, must rescue the ones they love and discover the source of a monstrous new enemy. Engage in a two-player co-op campaign with friends locally via split-screen, over Xbox Live or LAN. Player 2 can select either Kait or Del. Team up with four others and battle wave after wave of increasingly difficult enemies by choosing your combat class, leveling up your skills and deploying fortifications anywhere on the map. Compete online in new and favorite game types, all at 60fps on dedicated servers. A new visible ranking system means fairer matchmaking for social, competitive and professional players alike"
     },
     {
       "id": 4,
-      "name": "Horizon Zero Dawn",
-      "platform": "Playstation 4",
-      "developer": "Sony Entertainment",
+      "name": "Battlefield V",
+      "imageUrl": "/assets/img/BFV.jpg",
+      "platform": "PC",
+      "developer": "EA Dice",
       "reviews": 12,
       "rating": 4,
-      "summary": "Platform: Playstation 4 Developer: Naughty Dog Summary: Twenty years after a pandemic radically transformed known civilization, infected humans run amuck and survivors kill one another for sustenance and weapons - literally whatever they can get their hands on. Joel, a salty survivor, is hired to smuggle a fourteen-year-old girl, Ellie, out of a rough military quarantine, but what begins as a simple job quickly turns into a brutal journey across the country"
+      "summary": "Enter mankind's greatest conflict with Battlefield 5 as the series goes back to its roots with a never-before-seen portrayal of World War 2. Lead your squad to victory with new ways to turn the battlefield to your advantage. Assemble your Company of customized soldiers, weapons, and vehicles then take them on an epic journey through the Tides of War. Experience the most intense, immersive Battlefield yet. You will never be the same."
     },
     {
-      "id": 4,
-      "name": "Horizon Zero Dawn",
-      "platform": "Playstation 4",
-      "developer": "Sony Entertainment",
+      "id": 5,
+      "name": "Fifa 22",
+      "imageUrl": "/assets/img/F22.png",
+      "platform": "PC",
+      "developer": "EA Canadar",
       "reviews": 12,
       "rating": 5,
-      "summary": "Platform: Playstation 4 Developer: Naughty Dog Summary: Twenty years after a pandemic radically transformed known civilization, infected humans run amuck and survivors kill one another for sustenance and weapons - literally whatever they can get their hands on. Joel, a salty survivor, is hired to smuggle a fourteen-year-old girl, Ellie, out of a rough military quarantine, but what begins as a simple job quickly turns into a brutal journey across the country"
+      "summary": "Powered by Football™, EA SPORTS™ FIFA 22 brings the game even closer to the real thing with fundamental gameplay advances and a new season of innovation across every mode. New gameplay features in FIFA 22 give you more consistency between the posts with a goalkeeper rewrite that brings more composure to the most important position on the pitch, alongside new ball physics, explosive sprint that better matches the acceleration of the game’s quickest players, and new attacking tactics that let you take control of how your team plays. In Career Mode, live out your football dreams as you create and manage the game’s newest club to glory. VOLTA FOOTBALL rewards you for your flair with restyled small-sided gameplay and new ways to play and progress each season. "
+    },
+    {
+      "id": 6,
+      "name": "Horizon Zero Dawn",
+      "imageUrl": "/assets/img/HZD.jpg",
+      "platform": "Playstation 4",
+      "developer": "Guerrilla",
+      "reviews": 12,
+      "rating": 5,
+      "summary": "Horizon Zero Dawn is a PS4-exclusive action role playing game developed by Guerrilla Games, creators of the Killzone franchise. As Horizon Zero Dawn’s main protagonist Aloy, a skilled hunter, explore a vibrant and lush world inhabited by mysterious mechanized creatures. Embark on an emotional journey to unravel mysteries of tribal societies, ancient artifacts and advanced technologies that will determine the fate of this planet, and of life itself."
     }
   ],
   "reviews": [
@@ -249,30 +264,6 @@
       "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
       "reviewerName": "John Den",
       "rating": 1
-    },
-    {
-      "id": 23,
-      "gameId": "",
-      "reviewerName": "",
-      "title": "",
-      "description": "",
-      "rating": 5
-    },
-    {
-      "id": 9666.12078775719,
-      "gameId": "",
-      "reviewerName": "",
-      "title": "",
-      "description": "",
-      "rating": 0
-    },
-    {
-      "id": 9670.907822670184,
-      "gameId": "",
-      "reviewerName": "",
-      "title": "sdfsdfds",
-      "description": "ssdfsdfsdfs",
-      "rating": 4
     }
   ]
 }
