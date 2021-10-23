@@ -36,7 +36,7 @@
   min-height: 600px;
   padding-top: 20px;
 }
-.write-review-title {
+.title {
   color: #842bd7;
   font-size: 24px;
   font-weight: bold;
@@ -87,4 +87,8 @@ input::placeholder {
 }
 .button:hover {
   background-color: #5c1e96;
+}
+
+.reviews {
+  margin-top: 30px;
 }

@@ -2,7 +2,7 @@
 <div class="game-info">
   <h3 class="name">{{ game.name }}</h3>
   <div class="content" fxLayout="row" fxLayoutAlign="space-around">
-    <img class="image" src="../../../assets/img/GOW4.jpg" />
+    <img class="image" [src]="game.imageUrl" />
     <div class="info">
       <div><b>Platform:</b> {{ game.platform }}</div>
       <div><b>Developer:</b> {{ game.developer }}</div>
@@ -12,7 +12,7 @@
   </div>
 </div>
 <div class="write-review-container">
-  <h3 class="write-review-title">Write a review</h3>
+  <h3 class="title">Write a review</h3>
   <form
     [formGroup]="reviewForm"
     class="inputs-container"
@@ -67,4 +67,10 @@
 
     <button class="button" type="submit">Send</button>
   </form>
+  <div class="reviews">
+    <h3 class="title">Reviews</h3>
+    <div>
+      <gr-review *ngFor="let review of reviews" [review]="review"></gr-review>
+    </div>
+  </div>
 </div>

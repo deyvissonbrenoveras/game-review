@@ -4,6 +4,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { GamesService } from '../home/games.service';
 import { Game } from '../shared/game.model';
 import { ReviewsService } from '../home/reviews.service';
+import { Review } from '../shared/review.model';
 @Component({
   selector: 'gr-game',
   templateUrl: './game.component.html',
@@ -11,6 +12,7 @@ import { ReviewsService } from '../home/reviews.service';
 })
 export class GameComponent implements OnInit {
   @Input() game: Game;
+  reviews: Review[];
 
   reviewForm: FormGroup;
 
@@ -46,6 +48,9 @@ export class GameComponent implements OnInit {
       this.gamesService
         .gameById(params.id)
         .subscribe((game) => (this.game = game));
+      this.reviewsService
+        .getReviewByGameId(params.id)
+        .subscribe((reviews) => (this.reviews = reviews));
     });
   }
   onSubmit(): void {
