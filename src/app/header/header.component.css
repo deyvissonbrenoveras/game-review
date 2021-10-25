@@ -25,6 +25,16 @@
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  padding-right: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menuItem {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 17px;
 }
 @media (max-width: 850px) {
   .icon {
