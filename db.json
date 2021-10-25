@@ -7,7 +7,7 @@
       "platform": "Playstation 4",
       "developer": "SCE Santa Monica",
       "reviews": 10,
-      "rating": 1,
+      "rating": 5,
       "summary": "His vengeance against the gods of Olympus far behind him, Kratos now lives as a man in the lands of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… and teach his son to do the same. As mentor and protector to a son determined to earn his respect, Kratos is faced with an unexpected opportunity to master the rage that has long defined him. Questioning the dark lineage he’s passed on to his son, he hopes to make amends for the shortcomings of his past. Set within the untamed forests, mountains, and realms of Norse lore, God of War features a distinctly new setting with its own pantheon of creatures, monsters, and gods."
     },
     {
@@ -17,7 +17,7 @@
       "platform": "Playstation 4",
       "developer": "Naughty Dog",
       "reviews": 4,
-      "rating": 2,
+      "rating": 5,
       "summary": "The Last of Us has been rebuilt for the PlayStation4 system. Now featuring full 1080p, higher resolution character models, improved shadows and lighting, in addition to several other gameplay improvements. 20 years after a pandemic has radically changed known civilization, infected humans run wild and survivors are killing each other for food, weapons; whatever they can get their hands on. Joel, a violent survivor, is hired to smuggle a 14 year-old girl, Ellie, out of an oppressive military quarantine zone, but what starts as a small job soon transforms into a brutal journey across the U.S. The Last of Us Remastered includes the Abandoned Territories Map Pack, Reclaimed Territories Map Pack, and the critically acclaimed The Last of Us: Left Behind Single Player campaign that combines themes of survival, loyalty, and love with tense, survival-action gameplay."
     },
     {
@@ -37,7 +37,7 @@
       "platform": "PC",
       "developer": "EA Dice",
       "reviews": 12,
-      "rating": 4,
+      "rating": 2,
       "summary": "Enter mankind's greatest conflict with Battlefield 5 as the series goes back to its roots with a never-before-seen portrayal of World War 2. Lead your squad to victory with new ways to turn the battlefield to your advantage. Assemble your Company of customized soldiers, weapons, and vehicles then take them on an epic journey through the Tides of War. Experience the most intense, immersive Battlefield yet. You will never be the same."
     },
     {
@@ -47,7 +47,7 @@
       "platform": "PC",
       "developer": "EA Canadar",
       "reviews": 12,
-      "rating": 5,
+      "rating": 3,
       "summary": "Powered by Football™, EA SPORTS™ FIFA 22 brings the game even closer to the real thing with fundamental gameplay advances and a new season of innovation across every mode. New gameplay features in FIFA 22 give you more consistency between the posts with a goalkeeper rewrite that brings more composure to the most important position on the pitch, alongside new ball physics, explosive sprint that better matches the acceleration of the game’s quickest players, and new attacking tactics that let you take control of how your team plays. In Career Mode, live out your football dreams as you create and manage the game’s newest club to glory. VOLTA FOOTBALL rewards you for your flair with restyled small-sided gameplay and new ways to play and progress each season. "
     },
     {
@@ -57,7 +57,7 @@
       "platform": "Playstation 4",
       "developer": "Guerrilla",
       "reviews": 12,
-      "rating": 5,
+      "rating": 4,
       "summary": "Horizon Zero Dawn is a PS4-exclusive action role playing game developed by Guerrilla Games, creators of the Killzone franchise. As Horizon Zero Dawn’s main protagonist Aloy, a skilled hunter, explore a vibrant and lush world inhabited by mysterious mechanized creatures. Embark on an emotional journey to unravel mysteries of tribal societies, ancient artifacts and advanced technologies that will determine the fate of this planet, and of life itself."
     }
   ],
@@ -264,6 +264,86 @@
       "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
       "reviewerName": "John Den",
       "rating": 1
+    },
+    {
+      "id": 4971.893521940272,
+      "gameId": "",
+      "reviewerName": "",
+      "title": "teste",
+      "description": "teste teste teste",
+      "rating": 5
+    },
+    {
+      "id": 2463.2682076112283,
+      "gameId": "2",
+      "reviewerName": "",
+      "title": "testestes",
+      "description": "testsetestse",
+      "rating": 3
+    },
+    {
+      "id": 298.832140576087,
+      "gameId": "2",
+      "reviewerName": "User 01",
+      "title": "sdafsadfsdaf",
+      "description": "sdafsadfsdafsadf",
+      "rating": 1
+    },
+    {
+      "id": 1815.8899228834268,
+      "gameId": "2",
+      "reviewerName": "User 01",
+      "title": "sadfsadfsadf",
+      "description": "sdafsadfsdfsadf",
+      "rating": 3
+    },
+    {
+      "id": 1106.0354399841651,
+      "gameId": "2",
+      "reviewerName": "User 01",
+      "title": "fsadfsadfsd",
+      "description": "afsadfsadfsdaf",
+      "rating": 4
+    },
+    {
+      "id": 2158.8909665960973,
+      "gameId": "2",
+      "reviewerName": "User 01",
+      "title": "sadfsadfsda",
+      "description": "fsdafsadfsadf",
+      "rating": 4
+    },
+    {
+      "id": 8443.325094091366,
+      "gameId": "1",
+      "reviewerName": "User 01",
+      "title": "dsafdfasdf",
+      "description": "sadfsadfsadfsda",
+      "rating": 4
+    },
+    {
+      "id": 7688.4798075079525,
+      "gameId": "1",
+      "reviewerName": "User 01",
+      "title": "fgdsgdsf",
+      "description": "gfdsgdsfgf",
+      "rating": 3
+    },
+    {
+      "id": 2516.7491216221324,
+      "gameId": "1",
+      "reviewerName": "User 01",
+      "title": "fdgsdfgdsf",
+      "description": "gdsfgdsfgdsf",
+      "rating": 4
+    },
+    {
+      "id": 9729.350367678833,
+      "gameId": "6",
+      "reviewerName": "User 01",
+      "title": "Teste",
+      "description": " testsetsetset",
+      "rating": 4
     }
   ]
 }
