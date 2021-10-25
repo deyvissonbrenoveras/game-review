@@ -11,7 +11,7 @@
     </div>
   </div>
 </div>
-<div class="write-review-container">
+<div *ngIf="!alreadyReviewed" class="write-review-container">
   <h3 class="title">Write a review</h3>
   <form
     [formGroup]="reviewForm"
@@ -67,10 +67,13 @@
 
     <button class="button" type="submit">Send</button>
   </form>
-  <div class="reviews">
-    <h3 class="title">Reviews</h3>
-    <div>
-      <gr-review *ngFor="let review of reviews" [review]="review"></gr-review>
-    </div>
+</div>
+<div *ngIf="alreadyReviewed" class="alreadyReviewed">
+  You already sent your review
+</div>
+<div class="reviews">
+  <h3 class="title">Reviews</h3>
+  <div>
+    <gr-review *ngFor="let review of reviews" [review]="review"></gr-review>
   </div>
 </div>

@@ -1,6 +1,6 @@
 .container {
   border: 1px solid black;
-  height: 120px;
+  height: 140px;
   margin: 20px 30px;
   padding: 5px;
   border: 1px solid #e3e3e3;
@@ -19,11 +19,16 @@
   background-color: #c4c4c4;
   margin-right: 8px;
 }
+.content {
+  padding: 10px 20px;
+  width: 90%;
+}
+.title {
+  font-weight: bold;
+}
 .description {
   font-size: 12px;
   line-height: 13px;
-  padding: 5px;
-  margin-top: 10px;
 }
 .description:before {
   content: "\201C";

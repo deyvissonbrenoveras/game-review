@@ -88,7 +88,11 @@ input::placeholder {
 .button:hover {
   background-color: #5c1e96;
 }
-
+.alreadyReviewed {
+  text-align: center;
+  font-size: 18px;
+}
 .reviews {
   margin-top: 30px;
+  background-color: #fff;
 }

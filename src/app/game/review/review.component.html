@@ -3,8 +3,11 @@
     <div class="image"></div>
     <div>
       <div>{{ review.reviewerName }}</div>
-      <gr-rating [rating]="5"></gr-rating>
+      <gr-rating [rating]="review.rating"></gr-rating>
     </div>
   </div>
-  <div class="description">{{ review.description }}</div>
+  <div class="content">
+    <div class="title">{{ review.title }}</div>
+    <div class="description">{{ review.description }}</div>
+  </div>
 </div>

@@ -12,6 +12,8 @@ import { Review } from '../shared/review.model';
 })
 export class GameComponent implements OnInit {
   @Input() game: Game;
+  REVIEWER_NAME: string = 'User 01';
+  alreadyReviewed: Boolean = false;
   reviews: Review[];
 
   reviewForm: FormGroup;
@@ -27,7 +29,7 @@ export class GameComponent implements OnInit {
     this.reviewForm = this.formBuilder.group({
       id: Math.random() * (10000 - 100) + 100,
       gameId: '',
-      reviewerName: '',
+      reviewerName: this.REVIEWER_NAME,
       title: this.formBuilder.control('', [
         Validators.required,
         Validators.minLength(5),
@@ -45,20 +47,28 @@ export class GameComponent implements OnInit {
     });
 
     this.activatedRouted.params.subscribe((params) => {
+      this.reviewForm.patchValue({ gameId: params.id });
       this.gamesService
         .gameById(params.id)
         .subscribe((game) => (this.game = game));
-      this.reviewsService
-        .getReviewByGameId(params.id)
-        .subscribe((reviews) => (this.reviews = reviews));
+      this.reviewsService.getReviewByGameId(params.id).subscribe((reviews) => {
+        this.reviews = reviews;
+        let filteredReviews: Review[] = this.reviews.filter((review: Review) =>
+          review.reviewerName.includes(this.REVIEWER_NAME)
+        );
+        if (filteredReviews.length > 0) {
+          this.alreadyReviewed = true;
+        }
+      });
     });
   }
   onSubmit(): void {
     this.reviewForm.markAllAsTouched();
     if (this.reviewForm.valid) {
-      this.reviewsService
-        .addReview(this.reviewForm.value)
-        .subscribe((res) => console.log(res));
+      this.reviewsService.addReview(this.reviewForm.value).subscribe((res) => {
+        console.log(res);
+        window.location.reload();
+      });
     }
   }
   rate(rating: number) {
