@@ -2,9 +2,9 @@ import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { GamesService } from '../home/games.service';
-import { Game } from '../shared/game.model';
+import { Game } from '../../shared/game.model';
 import { ReviewsService } from '../home/reviews.service';
-import { Review } from '../shared/review.model';
+import { Review } from '../../shared/review.model';
 @Component({
   selector: 'gr-game',
   templateUrl: './game.component.html',

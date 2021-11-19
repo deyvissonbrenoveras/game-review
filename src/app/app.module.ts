@@ -13,20 +13,20 @@ import { ROUTES } from './app.routes';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { HomeComponent } from './home/home.component';
-import { GameCardComponent } from './home/game-card/game-card.component';
+import { HomeComponent } from './pages/home/home.component';
+import { GameCardComponent } from './pages/home/game-card/game-card.component';
 import { RouterModule } from '@angular/router';
-import { AboutComponent } from './about/about.component';
-import { GameComponent } from './game/game.component';
-import { GamesService } from './home/games.service';
+import { AboutComponent } from './pages/about/about.component';
+import { GameComponent } from './pages/game/game.component';
+import { GamesService } from './pages/home/games.service';
 import { TitleComponent } from './shared/title/title.component';
-import { ReviewCardComponent } from './home/review-card/review-card.component';
-import { ReviewsService } from './home/reviews.service';
+import { ReviewCardComponent } from './pages/home/review-card/review-card.component';
+import { ReviewsService } from './pages/home/reviews.service';
 import { RatingComponent } from './shared/rating/rating.component';
 import { LogoComponent } from './shared/logo/logo.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RatingSelectorComponent } from './shared/rating-selector/rating-selector.component';
-import { ReviewComponent } from './game/review/review.component';
+import { ReviewComponent } from './pages/game/review/review.component';
 
 @NgModule({
   declarations: [

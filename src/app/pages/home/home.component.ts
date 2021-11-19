@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { GamesService } from './games.service';
-import { Game } from '../shared/game.model';
-import { Review } from '../shared/review.model';
+import { Game } from '../../shared/game.model';
+import { Review } from '../../shared/review.model';
 import { ReviewsService } from './reviews.service';
 
 @Component({

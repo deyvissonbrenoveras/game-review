@@ -5,7 +5,7 @@ import {
   HttpParamsOptions,
 } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Review } from '../shared/review.model';
+import { Review } from '../../shared/review.model';
 import { map } from 'rxjs/operators';
 
 @Injectable()
