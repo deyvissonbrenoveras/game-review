@@ -1,0 +1,23 @@
+form {
+  padding: 10px;
+}
+input,
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ebebeb;
+  padding: 6px 15px;
+  outline: none;
+  border: 1px solid black;
+  display: block;
+  margin: 5px;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: #b8b8b8;
+}
+.validationError {
+  padding: 5px;
+  color: #ff0000;
+}

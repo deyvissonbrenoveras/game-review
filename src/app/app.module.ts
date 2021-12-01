@@ -27,6 +27,9 @@ import { LogoComponent } from './shared/logo/logo.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RatingSelectorComponent } from './shared/rating-selector/rating-selector.component';
 import { ReviewComponent } from './pages/game/review/review.component';
+import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component';
+import { LogonComponent } from './pages/logon/logon.component';
+import { LogonLayoutComponent } from './layouts/logon-layout/logon-layout.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +46,9 @@ import { ReviewComponent } from './pages/game/review/review.component';
     LogoComponent,
     RatingSelectorComponent,
     ReviewComponent,
+    HomeLayoutComponent,
+    LogonLayoutComponent,
+    LogonComponent,
   ],
   imports: [
     BrowserModule,
@@ -52,7 +58,7 @@ import { ReviewComponent } from './pages/game/review/review.component';
     FlexLayoutModule,
     MatToolbarModule,
     MatIconModule,
-    RouterModule.forRoot(ROUTES),
+    RouterModule.forChild(ROUTES),
     FormsModule,
     ReactiveFormsModule,
   ],
