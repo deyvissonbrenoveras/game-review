@@ -28,7 +28,7 @@
       <div
         *ngIf="
           reviewForm.controls['title'].invalid &&
-          reviewForm.controls['title'].dirty
+          reviewForm.controls['title'].touched
         "
         class="validationError"
       >
@@ -45,7 +45,7 @@
       <div
         *ngIf="
           reviewForm.controls['description'].invalid &&
-          reviewForm.controls['description'].dirty
+          reviewForm.controls['description'].touched
         "
         class="validationError"
       >

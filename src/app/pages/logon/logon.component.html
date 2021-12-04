@@ -1,12 +1,37 @@
-<div>
-  <form>
+<div class="container">
+  <div class="header">
+    <a [routerLink]="['/']"><gr-logo></gr-logo></a>
+  </div>
+  <form [formGroup]="logonForm" (ngSubmit)="onSubmit()">
     <label>
-      Username
-      <input type="text" name="username" placeholder="username" />
+      E-mail
+      <input type="text" formControlName="email" placeholder="E-mail" />
+      <div
+        *ngIf="
+          logonForm.controls['email'].invalid &&
+          logonForm.controls['email'].touched
+        "
+        class="validationError"
+      >
+        Invalid e-mail
+      </div>
     </label>
     <label>
       Password
-      <input type="password" name="password" placeholder="password" />
+      <input
+        type="password"
+        formControlName="password"
+        placeholder="password"
+      />
+      <div
+        *ngIf="
+          logonForm.controls['password'].invalid &&
+          logonForm.controls['password'].touched
+        "
+        class="validationError"
+      >
+        Password must have at least 8 charactesres
+      </div>
     </label>
     <button type="submit">Login</button>
   </form>
