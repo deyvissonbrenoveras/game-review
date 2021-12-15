@@ -20,10 +20,16 @@
   margin-right: 8px;
 }
 .description {
+  height: 45px;
   font-size: 12px;
   line-height: 13px;
   padding: 5px;
   margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 .description:before {
   content: "\201C";
