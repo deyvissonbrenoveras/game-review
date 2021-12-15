@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'gr-logon',
@@ -8,7 +9,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 })
 export class LogonComponent implements OnInit {
   logonForm: FormGroup;
-  constructor(private formBuilder: FormBuilder) {}
+  constructor(private formBuilder: FormBuilder, private router: Router) {}
 
   ngOnInit(): void {
     this.logonForm = this.formBuilder.group({
@@ -25,6 +26,7 @@ export class LogonComponent implements OnInit {
   onSubmit(): void {
     this.logonForm.markAllAsTouched();
     if (this.logonForm.valid) {
+      this.router.navigate(['/']);
     }
   }
 }
