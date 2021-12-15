@@ -6,7 +6,7 @@
       "name": "God of War",
       "platform": "Playstation 4",
       "developer": "SCE Santa Monica",
-      "reviews": 10,
+      "reviews": 5,
       "rating": 5,
       "summary": "His vengeance against the gods of Olympus far behind him, Kratos now lives as a man in the lands of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… and teach his son to do the same. As mentor and protector to a son determined to earn his respect, Kratos is faced with an unexpected opportunity to master the rage that has long defined him. Questioning the dark lineage he’s passed on to his son, he hopes to make amends for the shortcomings of his past. Set within the untamed forests, mountains, and realms of Norse lore, God of War features a distinctly new setting with its own pantheon of creatures, monsters, and gods."
     },
@@ -16,7 +16,7 @@
       "imageUrl": "/assets/img/TLOU.jpg",
       "platform": "Playstation 4",
       "developer": "Naughty Dog",
-      "reviews": 4,
+      "reviews": 3,
       "rating": 5,
       "summary": "The Last of Us has been rebuilt for the PlayStation4 system. Now featuring full 1080p, higher resolution character models, improved shadows and lighting, in addition to several other gameplay improvements. 20 years after a pandemic has radically changed known civilization, infected humans run wild and survivors are killing each other for food, weapons; whatever they can get their hands on. Joel, a violent survivor, is hired to smuggle a 14 year-old girl, Ellie, out of an oppressive military quarantine zone, but what starts as a small job soon transforms into a brutal journey across the U.S. The Last of Us Remastered includes the Abandoned Territories Map Pack, Reclaimed Territories Map Pack, and the critically acclaimed The Last of Us: Left Behind Single Player campaign that combines themes of survival, loyalty, and love with tense, survival-action gameplay."
     },
@@ -26,7 +26,7 @@
       "imageUrl": "/assets/img/GearsOW4.webp",
       "platform": "XBOX ONE",
       "developer": "The Coalition",
-      "reviews": 12,
+      "reviews": 4,
       "rating": 3,
       "summary": "A new saga begins. After narrowly escaping an attack on their village, JD Fenix and his friends, Kait and Del, must rescue the ones they love and discover the source of a monstrous new enemy. Engage in a two-player co-op campaign with friends locally via split-screen, over Xbox Live or LAN. Player 2 can select either Kait or Del. Team up with four others and battle wave after wave of increasingly difficult enemies by choosing your combat class, leveling up your skills and deploying fortifications anywhere on the map. Compete online in new and favorite game types, all at 60fps on dedicated servers. A new visible ranking system means fairer matchmaking for social, competitive and professional players alike"
     },
@@ -36,7 +36,7 @@
       "imageUrl": "/assets/img/BFV.jpg",
       "platform": "PC",
       "developer": "EA Dice",
-      "reviews": 12,
+      "reviews": 3,
       "rating": 2,
       "summary": "Enter mankind's greatest conflict with Battlefield 5 as the series goes back to its roots with a never-before-seen portrayal of World War 2. Lead your squad to victory with new ways to turn the battlefield to your advantage. Assemble your Company of customized soldiers, weapons, and vehicles then take them on an epic journey through the Tides of War. Experience the most intense, immersive Battlefield yet. You will never be the same."
     },
@@ -64,286 +64,178 @@
   "reviews": [
     {
       "gameId": 1,
-      "title": "primeiro",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "primeiro",
-      "rating": 3
-    },
-    {
-      "gameId": 2,
       "title": "Best Game",
       "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 4
-    },
-    {
-      "gameId": 3,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 2
-    },
-    {
-      "gameId": 1,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 1
-    },
-    {
-      "gameId": 1,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 1
-    },
-    {
-      "gameId": 1,
-      "title": "primeiro",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "primeiro",
-      "rating": 3
-    },
-    {
-      "gameId": 2,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 4
-    },
-    {
-      "gameId": 3,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 2
-    },
-    {
-      "gameId": 1,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 1
-    },
-    {
-      "gameId": 1,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 1
-    },
-    {
-      "gameId": 1,
-      "title": "primeiro",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "primeiro",
-      "rating": 3
-    },
-    {
-      "gameId": 2,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 4
-    },
-    {
-      "gameId": 3,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 2
-    },
-    {
-      "gameId": 1,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 1
-    },
-    {
-      "gameId": 1,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 1
-    },
-    {
-      "gameId": 1,
-      "title": "primeiro",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "primeiro",
-      "rating": 3
-    },
-    {
-      "gameId": 2,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 4
-    },
-    {
-      "gameId": 3,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 2
-    },
-    {
-      "gameId": 1,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 1
-    },
-    {
-      "gameId": 1,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 1
-    },
-    {
-      "gameId": 1,
-      "title": "primeiro",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "primeiro",
-      "rating": 3
-    },
-    {
-      "gameId": 2,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 4
-    },
-    {
-      "gameId": 3,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 2
-    },
-    {
-      "gameId": 1,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 1
-    },
-    {
-      "gameId": 1,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 1
-    },
-    {
-      "gameId": 2,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 4
-    },
-    {
-      "gameId": 3,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 2
-    },
-    {
-      "gameId": 1,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 1
-    },
-    {
-      "gameId": 1,
-      "title": "Best Game",
-      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
-      "reviewerName": "John Den",
-      "rating": 1
-    },
-    {
-      "id": 4971.893521940272,
-      "gameId": "",
-      "reviewerName": "",
-      "title": "teste",
-      "description": "teste teste teste",
+      "reviewerName": "Kathleen",
       "rating": 5
     },
     {
-      "id": 2463.2682076112283,
-      "gameId": "2",
-      "reviewerName": "",
-      "title": "testestes",
-      "description": "testsetestse",
+      "gameId": 1,
+      "title": "Good Game",
+      "description": "God of War doesn’t just feel like the next step for the franchise, but for the entire video game industry. Phenomenal visuals, rewarding exploration, and a deep, nuanced combat system contribute to an epic adventure that should be experienced by every human on earth. Santa Monica Studio is taking us all to Valhalla.",
+      "reviewerName": "Easy Allies",
+      "rating": 4
+    },
+    {
+      "gameId": 1,
+      "title": "Crazy game",
+      "description": "Kratos’ new beginning is full of heart, loaded with action and is easily one of the best games of this generation.",
+      "reviewerName": "Gaming Age",
+      "rating": 5
+    },
+    {
+      "gameId": 1,
+      "title": "Awesome",
+      "description": "The return of the furious Spartan warrior was made well. God of War is already a great contender for game of the year and you shouldn't miss it.",
+      "reviewerName": "LEVEL (Czech Republic)",
+      "rating": 5
+    },
+    {
+      "gameId": 1,
+      "title": "Excelent",
+      "description": "God of War takes everything good about the franchise and elevates it. Almost every aspect is polished to a fine sheen, with a particular standout being the world itself, and the new emphasis on telling a mature and meaningful story that explores remarkably complex themes. God of War sets a new bar for storytelling and world building in games, and transforms Kratos from a one note character to a fascinating man with a story worth hearing. If you have a PS4, this is a must have title.",
+      "reviewerName": "GameCrate",
+      "rating": 4
+    },
+    {
+      "gameId": 2,
+      "title": "Fabulous",
+      "description": "The heart-rending story isn`t romanticizing nor does it drift into the pathos other, less subtle games so often lean towards. That's the line where good craftsmanship becomes art, and an excellent game.",
+      "reviewerName": "Eurogamer Germany",
+      "rating": 4
+    },
+    {
+      "gameId": 2,
+      "title": "Memorable history",
+      "description": "If you have yet to play The Last of Us, and you own a PlayStation 4, I can fully whole heartily say go buy this game, because you’re in for a memorable time. For fans, this is one you might want to pick up if you want to play the game at its best.",
+      "reviewerName": "DarkZero",
+      "rating": 5
+    },
+    {
+      "gameId": 2,
+      "title": "Best adventure",
+      "description": "The Last of Us is truly the game of a generation, and the Remastered edition brings the harrowing adventure to a whole new generation with expert style.",
+      "reviewerName": "GamingTrend",
       "rating": 3
     },
     {
-      "id": 298.832140576087,
-      "gameId": "2",
-      "reviewerName": "User 01",
-      "title": "sdafsadfsdaf",
-      "description": "sdafsadfsdafsadf",
+      "gameId": 3,
+      "title": "Brutal action",
+      "description": "Brutal action, addictive multiplayer, shredded bodies and stunning visuals. Developers from The Coalition showed that they belong among the leaders in this field. The fourth part of Gears of War can only be recommended. [Issue #268]",
+      "reviewerName": "LEVEL (Czech Republic)",
+      "rating": 4
+    },
+    {
+      "gameId": 3,
+      "title": "Great game",
+      "description": "Even with a new studio leading the development charge, Gears of War 4 is a return to form for the series, and is continual delight, even if it does unnecessarily cling for dear life to the past.",
+      "reviewerName": "Game Informer",
+      "rating": 4
+    },
+    {
+      "gameId": 3,
+      "title": "Me gusta",
+      "description": "La verdad no esta nada mal, me gustó mucho la gráficos y la jugabilidad (siempre he sido fanático del estudio de juego y de combate de GoW)",
+      "reviewerName": "Sygurd",
+      "rating": 3
+    },
+    {
+      "gameId": 3,
+      "title": "Malo",
+      "description": "Juego cutre, lo mismo en cada entrega, personajes corriendo agachados como tontos",
+      "reviewerName": "KaslanaDx02",
       "rating": 1
     },
     {
-      "id": 1815.8899228834268,
-      "gameId": "2",
-      "reviewerName": "User 01",
-      "title": "sadfsadfsadf",
-      "description": "sdafsadfsdfsadf",
+      "gameId": 4,
+      "title": "Così Così",
+      "description": "Le campagne sono carine e danno un bel senso di libertà, ovviamente il comparto tecnico è mostruoso anche se avendolo giocato prima del lancio ho riscontrato diversi bug fastidiosi ed in alcuni casi invalidanti.",
+      "reviewerName": "Dagger95",
+      "rating": 1
+    },
+    {
+      "gameId": 4,
+      "title": "Unifinished Game",
+      "description": "Been playing the BF series since 2002. It has come a long way. In the recent releases, I enjoy BF4 the most, and that remains unchanged thus far. Tanks and planes are just being eroded away in BF1 and now basically stupid in BF5.",
+      "reviewerName": "lapiscoco",
+      "rating": 2
+    },
+    {
+      "gameId": 4,
+      "title": "Ok",
+      "description": "Battlefield V fails to impress the same way Battlefield 1 did. By all means, give it a try if you’re a fan of DICE’s previous work, but know that you’ll have to put up with some pretty glaring faults.",
+      "reviewerName": "Digital Trends",
+      "rating": 2
+    },
+    {
+      "gameId": 5,
+      "title": "Good enternainment",
+      "description": "Wonderful and distasteful all at once, it entertains and fails in turns, like Frank Worthington. But I loved watching Frankie.",
+      "reviewerName": "PC Gamer",
       "rating": 3
     },
     {
-      "id": 1106.0354399841651,
-      "gameId": "2",
-      "reviewerName": "User 01",
-      "title": "fsadfsadfsd",
-      "description": "afsadfsadfsdaf",
-      "rating": 4
+      "gameId": 5,
+      "title": "Mercenary EA",
+      "description": "I marked an otherwise solid game down for the scripting and the downright con that is Ultimate Team. It couldn't be more blatantly obvious that EA does its best to hold you back in an attempt to get players to part with money to buy packs to get better players.",
+      "reviewerName": "JimJamJamiee",
+      "rating": 1
     },
     {
-      "id": 2158.8909665960973,
-      "gameId": "2",
-      "reviewerName": "User 01",
-      "title": "sadfsadfsda",
-      "description": "fsdafsadfsadf",
-      "rating": 4
-    },
-    {
-      "id": 8443.325094091366,
-      "gameId": "1",
-      "reviewerName": "User 01",
-      "title": "dsafdfasdf",
-      "description": "sadfsadfsadfsda",
-      "rating": 4
-    },
-    {
-      "id": 7688.4798075079525,
-      "gameId": "1",
-      "reviewerName": "User 01",
-      "title": "fgdsgdsf",
-      "description": "gfdsgdsfgf",
+      "gameId": 5,
+      "title": "Unbalanced Game",
+      "description": "Despite its flaws FIFA 22 manages to find the balance point between simulation and fun. Although the fact some of its modes are far from perfect, it can offer the thrills that football gives to its fans, both online and locally. ",
+      "reviewerName": "Ragequit.gr",
       "rating": 3
     },
     {
-      "id": 2516.7491216221324,
-      "gameId": "1",
-      "reviewerName": "User 01",
-      "title": "fdgsdfgdsf",
-      "description": "gdsfgdsfgdsf",
+      "gameId": 5,
+      "title": "Cut off game",
+      "description": "After many hours spent on the next-gen version of FIFA 22 (PS5-Xbox Series) and its old-gen bent, the conclusion is there: PC, Xbox One and PS4 players will have a version with the flaws of the new generation, but cut off from its strengths.",
+      "reviewerName": "Jeuxvideo.com",
+      "rating": 2
+    },
+    {
+      "gameId": 6,
+      "title": "Creative game",
+      "description": "Horizon Zero Dawn is a perfect proof, that if you give developers creative freedom and time, it will get you a sweet reward. For fans of action adventures and wonderful worlds Horizon is the obvious choice.",
+      "reviewerName": "LEVEL (Czech Republic)",
+      "rating": 5
+    },
+    {
+      "gameId": 6,
+      "title": "Greatest game",
+      "description": "Horizon Zero Dawn is Guerrilla Games’ best effort, one of the PS4’s greatest games, and the best game ever crafted from the ground up for the platform. It combines a gripping narrative with intense action that blends both fast-paced combat with slower-paced, tense stealth sections perfectly.",
+      "reviewerName": "Game Over Online",
       "rating": 4
     },
     {
-      "id": 9729.350367678833,
-      "gameId": "6",
-      "reviewerName": "User 01",
-      "title": "Teste",
-      "description": " testsetsetset",
-      "rating": 4
+      "gameId": 6,
+      "title": "GOTY candidate",
+      "description": "This is a culmination of everything Guerrilla has learned from working on the Killzone franchise and they've successfully crafted something that delivers on the potential many saw back in 2015",
+      "reviewerName": "Hardcore Gamer",
+      "rating": 5
+    },
+    {
+      "gameId": 6,
+      "title": "",
+      "description": ".",
+      "reviewerName": "",
+      "rating": 2
+    },
+    {
+      "gameId": 6,
+      "title": "",
+      "description": ".",
+      "reviewerName": "",
+      "rating": 2
+    },
+    {
+      "gameId": 6,
+      "title": "",
+      "description": ".",
+      "reviewerName": "",
+      "rating": 2
     }
   ]
 }
