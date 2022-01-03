@@ -7,6 +7,7 @@ import {
 import { Observable } from 'rxjs';
 import { Review } from '../../shared/review.model';
 import { map } from 'rxjs/operators';
+import { environment } from 'src/environments/environment';
 
 @Injectable()
 export class ReviewsService {
@@ -14,7 +15,7 @@ export class ReviewsService {
 
   reviews(): Observable<Review[]> {
     return this.http
-      .get<Review[]>('http://localhost:3000/reviews')
+      .get<Review[]>(`${environment.services.serverURL}/reviews`)
       .pipe(map((reviews: Review[]) => reviews.map((review) => review)));
   }
 
@@ -24,7 +25,7 @@ export class ReviewsService {
     };
     return this.http
       .post(
-        'http://localhost:3000/reviews',
+        `${environment.services.serverURL}/reviews`,
         JSON.stringify(review),
         httpOptions
       )
@@ -33,7 +34,7 @@ export class ReviewsService {
   }
   getReviewByGameId(id: number) {
     return this.http
-      .get<Review[]>(`http://localhost:3000/reviews?gameId=${id}`)
+      .get<Review[]>(`${environment.services.serverURL}/reviews?gameId=${id}`)
       .pipe(map((reviews: Review[]) => reviews.map((review) => review)));
   }
 }
