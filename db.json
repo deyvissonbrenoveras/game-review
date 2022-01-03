@@ -36,7 +36,7 @@
       "imageUrl": "/assets/img/BFV.jpg",
       "platform": "PC",
       "developer": "EA Dice",
-      "reviews": 3,
+      "reviews": 8,
       "rating": 2,
       "summary": "Enter mankind's greatest conflict with Battlefield 5 as the series goes back to its roots with a never-before-seen portrayal of World War 2. Lead your squad to victory with new ways to turn the battlefield to your advantage. Assemble your Company of customized soldiers, weapons, and vehicles then take them on an epic journey through the Tides of War. Experience the most intense, immersive Battlefield yet. You will never be the same."
     },
@@ -46,7 +46,7 @@
       "imageUrl": "/assets/img/F22.png",
       "platform": "PC",
       "developer": "EA Canadar",
-      "reviews": 12,
+      "reviews": 4,
       "rating": 3,
       "summary": "Powered by Football™, EA SPORTS™ FIFA 22 brings the game even closer to the real thing with fundamental gameplay advances and a new season of innovation across every mode. New gameplay features in FIFA 22 give you more consistency between the posts with a goalkeeper rewrite that brings more composure to the most important position on the pitch, alongside new ball physics, explosive sprint that better matches the acceleration of the game’s quickest players, and new attacking tactics that let you take control of how your team plays. In Career Mode, live out your football dreams as you create and manage the game’s newest club to glory. VOLTA FOOTBALL rewards you for your flair with restyled small-sided gameplay and new ways to play and progress each season. "
     },
@@ -56,7 +56,7 @@
       "imageUrl": "/assets/img/HZD.jpg",
       "platform": "Playstation 4",
       "developer": "Guerrilla",
-      "reviews": 12,
+      "reviews": 6,
       "rating": 4,
       "summary": "Horizon Zero Dawn is a PS4-exclusive action role playing game developed by Guerrilla Games, creators of the Killzone franchise. As Horizon Zero Dawn’s main protagonist Aloy, a skilled hunter, explore a vibrant and lush world inhabited by mysterious mechanized creatures. Embark on an emotional journey to unravel mysteries of tribal societies, ancient artifacts and advanced technologies that will determine the fate of this planet, and of life itself."
     }
@@ -168,6 +168,41 @@
       "rating": 2
     },
     {
+      "gameId": 4,
+      "title": "A trash",
+      "description": "This game doesn't rape only history, it rape physics too. Look at the speed of paratroopers. I really like BF1. But this is a trash.",
+      "reviewerName": "Kuboch",
+      "rating": 1
+    },
+    {
+      "gameId": 4,
+      "title": "The problem is EA",
+      "description": "EA did it again, This is not finish product. Lot of glitches are still present, some are annoying. Women scream so much in battle which is not good thing for WW2 game. BF mechanics are changed and force player to do quest to unlock their progressions. Microtransactions may come soon for unlocks.",
+      "reviewerName": "frozenology",
+      "rating": 1
+    },
+    {
+      "gameId": 4,
+      "title": "Good gameplay",
+      "description": "Battlefield V successfully delivers expectations from gameplay perspective. The new featured Grand Operations mod and War Stories are great. But releasing with only 8 maps and lack of content is also concerning",
+      "reviewerName": "Merlin'in Kazanı (Turkey)",
+      "rating": 4
+    },
+    {
+      "gameId": 4,
+      "title": "Good game modes",
+      "description": "The Battlefield series has a winning formula that Battlefield V doesn't deviate far from, at least for now. Conquest and the map roster don't mesh well together, however, Grand Operations--and the other modes within it--steal the show and foster some of the greatest moments the franchise has offered.",
+      "reviewerName": "GameSpot",
+      "rating": 4
+    },
+    {
+      "gameId": 4,
+      "title": "Lost franchise",
+      "description": "The battlefield franchise lost itself. The game play is to fast to promote good squad play which is what makes this series good. Instead of nice coordinate squad gunfights what you wind up with is a bunch of people running around like headless chickens.",
+      "reviewerName": "RedOctStandinBy",
+      "rating": 2
+    },
+    {
       "gameId": 5,
       "title": "Good enternainment",
       "description": "Wonderful and distasteful all at once, it entertains and fails in turns, like Frank Worthington. But I loved watching Frankie.",
@@ -218,23 +253,23 @@
     },
     {
       "gameId": 6,
-      "title": "",
-      "description": ".",
-      "reviewerName": "",
+      "title": "Perfect gameplay",
+      "description": "A perfect example of strong, competent and enjoyable gameplay. It doesn't reinvent the genre, but it's a lot of fun to play. The mecha-dino combat is the highlight and represents some of the most enjoyable open-world combat on the market. Burning through powerful foes and looting their corpses for rare treasures captures an excitement rarely felt in open-world games. The rest of the gameplay is somewhat dulled in comparison. A somewhat weak plot drags down the experience but isn't enough to detract from the enjoyment.",
+      "reviewerName": "Worth Playing",
+      "rating": 5
+    },
+    {
+      "gameId": 6,
+      "title": "Disappointing",
+      "description": "Horizon Zero Dawn is disappointing. It has a story that I struggled to care about (complete with massive expository dumps—yay), a bland protagonist, and overtly repetitive and constraining missions that worked against its open world sensibilities. When Horizon Zero Dawn hit its rare strides—from its gloomy Cauldrons to traveling across its sprawling vistas—it only made me wish the rest of the game were as worthwhile.",
+      "reviewerName": "USgamer",
       "rating": 2
     },
     {
       "gameId": 6,
-      "title": "",
-      "description": ".",
-      "reviewerName": "",
-      "rating": 2
-    },
-    {
-      "gameId": 6,
-      "title": "",
-      "description": ".",
-      "reviewerName": "",
+      "title": "Miksem różnych",
+      "description": "Porządna gra będąca miksem różnych pomysłów i mechanik. Fabuła ma swoje momenty i potrafi zainteresować historia świata zaś rozgrywka stanowi…",
+      "reviewerName": "mikesgold2K",
       "rating": 2
     }
   ]
